@@ -17,10 +17,13 @@ From the root of the repo, run the following MATLAB line to convert the example 
 SOFAconvertSLH2SOFA('GoldenClusterMean_SH6E100_HD280.slh','GoldenClusterMean_SH6E100_HD280.sofa')
 ```      
 
+If successful, a newly converted .sofa HRTF file will appear in the root folder. 
+
+
+(The original SOFA readme is below).
 
 ----------------------------------------------
 
-==============================================
 SOFA - Spatially Oriented Format for Acoustics
 ==============================================
 
