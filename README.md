@@ -1,3 +1,25 @@
+# Slab3d to SOFA HRTF Converter (.slh to .sofa)
+
+This fork of the SOFA MATLAB API adds slab3d (.slh) to SOFA (.sofa) HRTF format conversion. 
+
+In addition to the SOFA MATLAB API, it uses the he slabtools Matlab scripts(v6.8.3):
+    http://slab3d.sourceforge.net/downloads.html
+
+## Usage example
+
+SOFAconvertSLH2SOFA.m is the main HRTF conversion script. 
+Simply provide it the paths/filenames to the input .slh and output .sofa files you want to convert. 
+
+An example .slh HRTF (GoldenClusterMean_SH6E100_HD280.slh) is included in the root of the folder. 
+From the root of the repo, run the following MATLAB line to convert the example .slh to a .sofa file.
+
+ ```matlab
+SOFAconvertSLH2SOFA('GoldenClusterMean_SH6E100_HD280.slh','GoldenClusterMean_SH6E100_HD280.sofa')
+ '''       
+
+----------------------------------------------
+
+==============================================
 SOFA - Spatially Oriented Format for Acoustics
 ==============================================
 

@@ -1,0 +1,71 @@
+
+Subject:  doog2.m, gaussian.m
+Author:   Joel D. Miller
+Date:     10/19/05
+Version:  SLAB v5.8.0
+
+doog2.m and gaussian.m were obtained from:
+http://www.cs.berkeley.edu/~stellayu/code.html
+(the text of this page is appended below)
+
+The slabtools dog.m and mdog.m require these files.
+
+doog2.m, gaussian.m, dog.m, and mdog.m released under
+GNU GENERAL PUBLIC LICENSE (see gpl.txt).
+
+--joel
+
+----------------------------
+
+Stella X. Yu - ResearchStella X. Yu : Research
+
+
+The software is made publicly available for the purpose of advancing research in 
+computer vision and related machine learning areas. It may be modified and 
+redistributed under the terms of the 
+GNU General Public License. 
+Download now
+
+
+  User program 
+  example.m : an example on ncuts for image segmentation 
+
+  Graph cuts 
+  imncut.m : master program on ncuts for image segmentation 
+  cncut.m : constrained ncuts with attraction, repulsion and regularization 
+  getbinsol.m : get a discrete partitioning from eigensolutions 
+  pargrp.m : generate a constraint matrix from partial grouping cues 
+  barqpqz.c : projection formula used in cncut 
+
+  Image feature extraction 
+  ic.c : compute intervening contours 
+  quadeg.m : edge extractions through quadrature filters 
+  make_filterbank_even2.m : make even-phase filters 
+  make_filterbank_odd2.m : make odd-phase filters 
+  doog1.m : 1D difference of Gaussian 
+  doog2.m : 2D difference of Gaussian 
+  fft_filt_2.m : filtering by FFT 
+  gaussian.m : Gaussian function 
+
+  Sampling and speed up 
+  imnb.c : pixel pairs in a local window 
+  csparse.c : generate a sparse matrix from C-index representation 
+  spmd.c : sparse matrix times diagonal matrices 
+  parmatV.c : binary partition matrix times a real matrix 
+
+  Image 
+  135069.jpg : from Berkeley image dataset, 160 x 240 
+
+  Notes 
+  These programs incorporate new developments on spectral graph partitioning as 
+  described in the following thesis: 
+
+  Computational Models of Perceptual Organization 
+  Stella X. Yu, May 2003, Carnegie Mellon University 
+
+  except Chapter 4 where Hermitian matrices are used. 
+  However, they can be extended by modifying related c functions to deal with 
+  imaginary number multiplications. 
+
+
+Last updated on 13-Jul-2004 10:45:58. 
