@@ -2,7 +2,7 @@
 
 This fork of the SOFA MATLAB API adds slab3d (.slh) to SOFA (.sofa) HRTF format conversion. 
 
-In addition to the SOFA MATLAB API, it uses the he slabtools Matlab scripts(v6.8.3):
+In addition to the SOFA MATLAB API, it uses the slabtools Matlab scripts(v6.8.3):
     http://slab3d.sourceforge.net/downloads.html
 
 ## Usage example
