@@ -13,9 +13,10 @@ Simply provide it the paths/filenames to the input .slh and output .sofa files y
 An example .slh HRTF (GoldenClusterMean_SH6E100_HD280.slh) is included in the root of the folder. 
 From the root of the repo, run the following MATLAB line to convert the example .slh to a .sofa file.
 
- ```matlab
+```matlab
 SOFAconvertSLH2SOFA('GoldenClusterMean_SH6E100_HD280.slh','GoldenClusterMean_SH6E100_HD280.sofa')
- '''       
+```      
+
 
 ----------------------------------------------
 
